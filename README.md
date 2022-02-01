@@ -14,11 +14,11 @@ This value is determined by comparing 2 values: `costToCompensateUntilNow` and `
 
 It would also be nice to see that people that helped making PoS possible (researchers, developers, testers, devops, auditors, stakers, ..) also get NFTs - but there the distribution is harder and maybe because of this outside the MVP. This also holds the opportunity to do an Airdrop to this group to get more traction and tick another buzzword for the bingo.
 
-Also maybe interesting as a forcing function for some people could be a `leaderboard` like view in the "Who made Ethereum green" section of the dapp which shows the ENS name of the persons holding most "I helped making Ethereum Green" NFTs. So you can still have the bragging rights so many search my having NFTs - without all the speculation (as the Price for these NFTs is stable)
+Also maybe interesting as a forcing function for some people could be a "leaderboard" like view in the "Who made Ethereum green" section of the dapp which shows the ENS name of the persons holding most "I helped making Ethereum Green" NFTs. So you can still have the bragging rights so many search my having NFTs - without all the speculation (as the Price for these NFTs is stable)
 
 The dapp also should provide a simple view where it outputs either something positive if `isEthereumGreen()` like a nice solarpunk image featuring the Ethereum log alongside a text "Ethereum is green and net benefit for mother Earth" or something not so positive and scary looking like a big Elephant in an area where it could do damage if the value is `false`. This dapp you can point people to when discussing the environmental impact of Ethereum and instead you have to argue - they are either just convinced or can open an issue for the project which leads to maybe adjusting the values and them agreeing then.
 
-The MVP should be on and only include L1 - but to be more efficient it could move to an L2. Also at some point it should also include L2's impact on consumption. Maybe it should be a standard across chains that they provide a IsThisProjectGreen contract. Maybe even a standard across projects/DAOs/Dapps so people can choose a path where they only use stuff that is positive for the planet.
+The MVP should be on and only include L1 - but to be more efficient it could move to an L2. Also at some point it should also include L2's impact on consumption. Maybe it should be a standard across chains that they provide a IsThisProjectGreen contract. Maybe even a standard across projects/DAOs/Dapps so people can choose a path where they only use stuff that is positive for the planet on platforms that are also.
 
 # Timing / Launch
 
@@ -26,7 +26,7 @@ A nice time to launch this project could be the first block after "The Merge" - 
 
 But maybe it can also be launched before - would not make the MVP more complex - just adjusting `anualCosts` after the merge - but this value needs to be adjusted over time anyway so this should not be a problem. Seeing how much money is YOLOed for current NFTs and other things I could also imagine "Ethereum is now green" could be YOLOED by a small group easily and end the "Ethereum is bad for the planet" discussione even already before. So the Merge would just make it cheaper to refute this argument and be a net positive for the planet instead of a burden.
 
-# History
+# Context
 
 This idea was sparked by [this tweet](https://twitter.com/rabbyte/status/1488299042111115273) after [this initiative](https://www.notion.so/Merge-4-Climate-9702d99a929e4f48af8fd90bfd205983) which was relying on pure altruism did not really get the traction it needed. So maybe free riding this existing wave of NFTs could give it the traction it needs to return `true` for our core fun, help save some time in discussions, have a cleaner consciousness, and have a forcing function to make running Ethereum more energy efficient.
 
