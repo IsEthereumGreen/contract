@@ -18,11 +18,13 @@ Also maybe interesting as a forcing function for some people could be a `leaderb
 
 The dapp also should provide a simple view where it outputs either something positive if `isEthereumGreen()` like a nice solarpunk image featuring the Ethereum log alongside a text "Ethereum is green and net benefit for mother Earth" or something not so positive and scary looking like a big Elephant in an area where it could do damage if the value is `false`. This dapp you can point people to when discussing the environmental impact of Ethereum and instead you have to argue - they are either just convinced or can open an issue for the project which leads to maybe adjusting the values and them agreeing then.
 
-The MVP should be on and only include L1 - but to be more efficient it could move to an L2. Also at some point it should also include L2's impact on consumption. Maybe it should be a standard across chains that they provide a a IsThisProjectGreen contract.
+The MVP should be on and only include L1 - but to be more efficient it could move to an L2. Also at some point it should also include L2's impact on consumption. Maybe it should be a standard across chains that they provide a IsThisProjectGreen contract. Maybe even a standard across projects/DAOs/Dapps so people can choose a path where they only use stuff that is positive for the planet.
 
 # Timing / Launch
 
 A nice time to launch this project could be the first block after "The Merge" - maybe just with the MVP at this point. The nice thing is this contract will not need to hold significant amounts of funds like some other contracts. So extensive security audits would not even be crucial - would still be nice to have more eyes on it - but maybe just for "I helped making Ethereum green" NFTs instead of having to pay the hefty prices for audits that you usually need for contracts that handle a lot of value.
+
+But maybe it can also be launched before - would not make the MVP more complex - just adjusting `anualCosts` after the merge - but this value needs to be adjusted over time anyway so this should not be a problem. Seeing how much money is YOLOed for current NFTs and other things I could also imagine "Ethereum is now green" could be YOLOED by a small group easily and end the "Ethereum is bad for the planet" discussione even already before. So the Merge would just make it cheaper to refute this argument and be a net positive for the planet instead of a burden.
 
 # History
 
