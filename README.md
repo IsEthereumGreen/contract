@@ -2,11 +2,11 @@
 
 ## MVP
 
-The contract outputs a single boolean for a function `isEthereumGreen()`
+The contract should output a boolean value for a function `isEthereumGreen()`
 
 This value is determined by comparing 2 values: `costToCompensateUntilNow` and `sumCO2TokensBurned`
 
-`sumCO2TokensBurned` starts at 0 and can be increased by sending funds to the contract. This also mints `N` NFT's where `N` is calculated by dividing the amount send by a stable value. This will also lead to the NFT being likely stable in price on secondary markets. This could be an interesting experiment on it's own. The funds are then converted to CO2 compensation tokens that are then burned. This might be batched to save on gas.
+`sumCO2TokensBurned` starts at 0 and can be increased by sending funds to the contract. This also mints `N` NFT's where `N` is calculated by dividing the amount send by a stable value (maybe using the MakerDAO oracle) or just accepting it in stable value like in DAI in the first place. This will also lead to the NFT being likely stable in price on secondary markets. This could be an interesting experiment on it's own. The funds are then converted to CO2 compensation tokens that are then burned. This might be batched to save on gas.
 
 `costToCompensateUntilNow` is more complicated - it will either require an oracle or could be set by a DAO that is maybe consisting of people holding "I helped to make Etherum Green" NFTs or some independent group. It is calculated from 2 values `costsUntilTheMerge` and `anualCosts` multiplied by the years since the merge. To get a feel for `costsUntilTheMerge` you can [read this document](https://www.notion.so/Merge-4-Climate-9702d99a929e4f48af8fd90bfd205983) - but more research here is needed. But for the MVP some static values could be used that are upper bound estimates. But there should be the possibility to upgrade this to use different values or methods to get the values.
 
